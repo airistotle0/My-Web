@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+ main {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem; 
+            box-sizing: border-box; 
+            position: relative;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 2rem 3rem; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            border: 4px solid;
+            border-image: linear-gradient(to right, black, white) 1;
+        }
+
+ .container h1 {
+            font-size: 1rem;
+            color: #333333;
+            margin-bottom: 1.5rem;
+        }
+
+        .container img {
+            width: 200px; 
+            height: 200px; 
+            border-radius: 50%; 
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+        }
+
+        .container .info {
+            font-size: 1.2rem;
+            color: #363535;
+            margin-bottom: 0.75rem;
+        }
+
+        .container .info strong {
+            color: #333333;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem 2rem;
+            }
+            .container h1 {
+                font-size: 2rem;
+            }
+
+            .container .info {
+                font-size: 1rem;
+            }
+
+            .container img {
+                width: 150px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+      <div class="container">
+          <h2>Personal Information</h2>
+          <img src="https://i.ibb.co/DD9GdRq/img1.jpg" alt="img1">
+          <p class="info"><strong></strong> Airis Kay A. Monte de Ramos </p>
+          <p class="info"><strong>Age:</strong> 20 years old </p>
+          <p class="info"><strong>Birthday:</strong> February 10, 2004 </p>
+          <p class="info"><strong>Live in:</strong> Brgy. Barbo Dulag, Leyte </p>
+          <p class="info"><strong>College:</strong> EVSU - Dulag Campus </p>
+          <p class="info"><strong>Program:</strong> Information Technology </p>
+          <p class="info"><strong>Motto: ctrl-shift </strong></p>
+      </div>
+
+</body>
+</html>
